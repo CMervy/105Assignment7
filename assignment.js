@@ -1,11 +1,11 @@
-// function createMulti(){
-//     var userinput = Number(window.prompt(`Select a number`))
-//     for(let i=1; i<11; i++){
-//         let item = document.createElement(`li`)
-//         item.innerHTML = `${userinput} * ${i} = ${userinput * i}`
-//         document.getElementById(`ul`).appendChild(item)
-//     }
-// }
+function createMulti(){
+    var userinput = Number(window.prompt(`Select a number`))
+    for(let i=1; i<11; i++){
+        let item = document.createElement(`li`)
+        item.innerHTML = `${userinput} * ${i} = ${userinput * i}`
+        document.getElementById(`ul`).appendChild(item)
+    }
+}
 
 
 function pickaKeller(){
@@ -15,7 +15,7 @@ function pickaKeller(){
 
     return `rgb(${r}, ${g}, ${b})`;
 }
-var buttons = document.querySelectorAll(`button`); // selects every button
+var buttons = document.querySelectorAll(`#buttonschange button`); // selects every button
 
 var firstColors = [];
 
